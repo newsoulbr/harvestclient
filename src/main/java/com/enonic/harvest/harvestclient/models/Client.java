@@ -13,7 +13,7 @@ import java.util.Date;
 
 @XmlRootElement(name = "client")
 @XmlAccessorType(XmlAccessType.NONE)
-public class Client
+public class Client extends BaseModel
 {
 
     @XmlElement(name = "name")

@@ -14,7 +14,7 @@ import java.util.Date;
 
 @XmlRootElement(name = "project")
 @XmlAccessorType(XmlAccessType.NONE)
-public class Project
+public class Project extends BaseModel
 {
 
     @XmlElement(name = "name")

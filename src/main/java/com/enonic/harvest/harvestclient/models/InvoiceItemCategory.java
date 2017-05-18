@@ -13,7 +13,7 @@ import java.util.Date;
 
 @XmlRootElement(name = "invoice-item-category")
 @XmlAccessorType(XmlAccessType.NONE)
-public class InvoiceItemCategory
+public class InvoiceItemCategory extends BaseModel
 {
     @XmlElement(name = "id")
     private Integer id;

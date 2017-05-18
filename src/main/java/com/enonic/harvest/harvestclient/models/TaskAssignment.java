@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @XmlAccessorType(XmlAccessType.NONE)
-public class TaskAssignment
+public class TaskAssignment extends BaseModel
 {
     @XmlElement(name = "id")
     private Integer id;

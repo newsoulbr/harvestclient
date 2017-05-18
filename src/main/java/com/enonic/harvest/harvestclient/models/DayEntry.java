@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @XmlAccessorType(XmlAccessType.NONE)
-public class DayEntry
+public class DayEntry extends BaseModel
 {
 
     @XmlElement(name = "hours")

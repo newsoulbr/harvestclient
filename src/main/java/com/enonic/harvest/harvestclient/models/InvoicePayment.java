@@ -14,7 +14,7 @@ import java.util.Date;
 
 @XmlRootElement(name = "payment")
 @XmlAccessorType(XmlAccessType.NONE)
-public class InvoicePayment
+public class InvoicePayment extends BaseModel
 {
     @XmlElement(name = "id")
     private Integer id;

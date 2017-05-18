@@ -13,7 +13,7 @@ import java.io.InputStream;
 import java.util.Date;
 
 @XmlAccessorType(XmlAccessType.NONE)
-public class InvoiceMessage
+public class InvoiceMessage extends BaseModel
 {
     @XmlElement(name = "id")
     private Integer id;

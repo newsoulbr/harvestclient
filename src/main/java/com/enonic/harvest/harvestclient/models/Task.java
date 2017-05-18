@@ -14,7 +14,7 @@ import java.util.Date;
 
 @XmlRootElement(name = "task")
 @XmlAccessorType(XmlAccessType.NONE)
-public class Task
+public class Task extends BaseModel
 {
     @XmlElement(name = "billable-by-default")
     private boolean billableByDefault;
